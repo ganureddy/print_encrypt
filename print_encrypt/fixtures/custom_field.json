@@ -62,7 +62,7 @@
   "columns": 0,
   "default": null,
   "depends_on": "eval:doc.custom_encrypt_print",
-  "description": "<b>Example:</b>SO-{{doc.name}}<br>This will generate a password like SO-SAL-ORD-2024-00004",
+  "description": "<b>Example:</b>SO-{{doc.name}}<br>This will generate a password like SO-SAL-ORD-2024-00001",
   "docstatus": 0,
   "doctype": "Custom Field",
   "dt": "Notification",

@@ -41,6 +41,22 @@ app_license = "mit"
 # Home Pages
 # ----------
 
+fixtures = [
+    {
+        "dt":
+            "Custom Field",
+            "filters":[[
+                "name",
+                "in",
+                {
+                    "Notification-custom_encrypt_print",
+                    "Notification-custom_password_policy"        
+                },
+                
+            ]]
+    }
+]
+
 # application home page (will override Website Settings)
 # home_page = "login"
 
@@ -114,9 +130,9 @@ app_license = "mit"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+    "Notification": "print_encrypt.print_encrypt.print_encrypt.Notification"
+}
 
 # Document Events
 # ---------------
@@ -160,7 +176,7 @@ app_license = "mit"
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "print_encrypt.event.get_events"
+# 	"frappe.email.doctype.notification.get_attachment" : "print_encrypt.print_encrypt.get_attachment_encrypt_print"
 # }
 #
 # each overriding function accepts a `data` argument;

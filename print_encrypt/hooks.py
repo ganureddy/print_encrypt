@@ -49,6 +49,7 @@ fixtures = [
                 "name",
                 "in",
                 {
+                    "Notification-custom_column_break_orxgw",
                     "Notification-custom_encrypt_print",
                     "Notification-custom_password_policy"        
                 },

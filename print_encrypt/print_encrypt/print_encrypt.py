@@ -1,5 +1,5 @@
-# Copyright (c) 2018, Frappe Technologies and contributors
-# License: MIT. See LICENSE
+# Copyright (c) 2024, Ganu Reddy and contributors
+# For license information, please see license.txt
 
 import json
 import os

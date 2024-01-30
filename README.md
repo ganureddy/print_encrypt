@@ -3,13 +3,6 @@
 <p align="center">
   Print Encrypt
 </p>
-<p align="center">
-  <a href="https://github.com/The-Commit-Company/Raven/blob/main/LICENSE">
-    <img alt="license" src="https://img.shields.io/badge/license-MIT-blue">
-  </a>
-</p>
-
-
 
 <hr>
 
